@@ -35,6 +35,7 @@ html {
     list-style: none;
     margin-left: auto;
     margin-right: 12px;
+    transition: all 1.5s;
   }
 
   .nav-links a {
@@ -150,6 +151,10 @@ text-shadow: 2px 2px 1px black;
   object-fit: cover;
 }
 
+.gent-icon:hover{
+  transform: scale(1.2);
+}
+
 /*----------- Quote Section ------------------*/
 
 .quote-section {
@@ -159,6 +164,7 @@ text-shadow: 2px 2px 1px black;
   padding: 128px 128px 96px;
   background-color: rgba(78, 157, 221, 0.548);
   opacity: 0.5;
+  border: solid black 1px;
 }
 
 .q-textbox {
@@ -186,10 +192,18 @@ text-shadow: 2px 2px 1px black;
 .signup-box {
   display: flex;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 32px 48px;
   margin: 128px 48px;
-  background: #1F2937;
+  background-image: linear-gradient(
+    60deg,
+    rgba(21, 92, 150, 0.548),
+    rgba(152, 152, 170, 0.5)
+  ),
+  url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  border: solid black 1px;
 }
 
 .act-textbox h3{
@@ -217,4 +231,22 @@ text-shadow: 2px 2px 1px black;
 
 .call:hover{
   background-color: darkgoldenrod;
+}
+
+/*------------ Footer -----------------*/
+.f {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: black;
+  background: #1F2937;
+  border: solid black 1px;
+}
+
+.copyright {
+  padding: 8px;
+  text-align: center;
+  color: burlywood;
+  font-size: 12px;
 }
