@@ -175,3 +175,46 @@ text-shadow: 2px 2px 1px black;
   text-shadow: 2px 2px 1px black;
 }
 
+/*--------- Call to action -------------*/
+
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 32px 48px;
+  margin: 128px 48px;
+  background: #1F2937;
+}
+
+.act-textbox h3{
+  text-shadow: 1px 1px black;
+  padding-bottom: 8px;
+  color: burlywood;
+}
+
+.act-textbox p{
+  padding-right: 24px;
+  color: white;
+}
+
+.call{
+  flex-shrink: 0;
+  height: 46px;
+  width: 128px;
+  padding: 4px 24px;
+  margin: 24px auto;
+  background-color:burlywood;
+  border-radius: 8px;
+  border: 1px solid darkgoldenrod;
+  font-weight: 900;
+}
+
+.call:hover{
+  background-color: darkgoldenrod;
+}
